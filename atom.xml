@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://Luckyyufan.github.io/"/>
+  <link href="http://.www.Luckyyufan.com/"/>
   <updated>2016-06-10T08:25:45.465Z</updated>
-  <id>http://Luckyyufan.github.io/</id>
+  <id>http://.www.Luckyyufan.com/</id>
   
   <author>
     <name>宇帆是只乖乖女</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>用GitHub Pages+Hexo快速搭建个人博客</title>
-    <link href="http://Luckyyufan.github.io/2016/04/24/blog1/"/>
-    <id>http://Luckyyufan.github.io/2016/04/24/blog1/</id>
+    <link href="http://.www.Luckyyufan.com/2016/04/24/blog1/"/>
+    <id>http://.www.Luckyyufan.com/2016/04/24/blog1/</id>
     <published>2016-04-24T11:00:10.000Z</published>
     <updated>2016-06-10T08:25:45.465Z</updated>
     
@@ -54,12 +54,12 @@
     
     </summary>
     
-      <category term="学习" scheme="http://Luckyyufan.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="http://.www.Luckyyufan.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="计算机" scheme="http://Luckyyufan.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="http://.www.Luckyyufan.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-      <category term="GitHub Page+Hexo" scheme="http://Luckyyufan.github.io/tags/GitHub-Page-Hexo/"/>
+      <category term="GitHub Page+Hexo" scheme="http://.www.Luckyyufan.com/tags/GitHub-Page-Hexo/"/>
     
   </entry>
   
