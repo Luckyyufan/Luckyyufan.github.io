@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Luckyyufan.github.io/"/>
-  <updated>2016-06-09T07:15:09.138Z</updated>
+  <updated>2016-06-10T06:26:26.232Z</updated>
   <id>http://Luckyyufan.github.io/</id>
   
   <author>
@@ -20,22 +20,22 @@
     <link href="http://Luckyyufan.github.io/2016/04/24/blog1/"/>
     <id>http://Luckyyufan.github.io/2016/04/24/blog1/</id>
     <published>2016-04-24T11:00:10.000Z</published>
-    <updated>2016-06-09T07:15:09.138Z</updated>
+    <updated>2016-06-10T06:26:26.232Z</updated>
     
     <content type="html">&lt;pre&gt;&lt;code&gt;——————征程路上向来无所畏惧！
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;####前言&lt;br&gt;这算是严格意义上的第一篇博客吧，若写的不够详细不够严谨，希望大家能指出不足，共同进步。用GitHub Page+Hexo搭建个人博客理论上很简单，实践过程各种磕磕绊绊，若不知道GitHub什么的博友先自行百度吧，在此就不啰嗦，搭建成功的关键：耐心！&lt;br&gt;废话不多说，开始正文：&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;####环境搭建：&lt;br&gt;首先是安装以下两个软件，普通软件的裝法：&lt;br&gt;1.&lt;strong&gt;&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;2.&lt;strong&gt;&lt;a href=&quot;https://desktop.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;######Git安装成功了以后点击开始菜单会多出以下文件夹：&lt;br&gt;&lt;img src=&quot;photo/Git.jpg&quot; alt=&quot;Git&quot;&gt;&lt;/p&gt;
-&lt;p&gt;######Node.js安装成功点击开始菜单会多出以下文件夹：&lt;br&gt;&lt;img src=&quot;photo/Node.jpg&quot; alt=&quot;Node.js&quot;&gt;&lt;/p&gt;
-&lt;p&gt;####建立博客站点&lt;/p&gt;
-&lt;p&gt;#####注册&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;photo/regist.jpg&quot; alt=&quot;注册&quot;&gt;&lt;br&gt;注册成功以后，登录官网验证邮箱即可&lt;/p&gt;
-&lt;p&gt;#####建立仓库&lt;br&gt;&lt;img src=&quot;photo/regist1.jpg&quot; alt=&quot;建仓&quot;&gt;&lt;br&gt;&lt;img src=&quot;photo/regist2.jpg&quot; alt=&quot;建仓&quot;&gt;&lt;br&gt;注：&lt;strong&gt;仓库名称必须是username.github.io&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;p&gt;这算是严格意义上的第一篇博客吧，若写的不够详细不够严谨，希望大家能指出不足，共同进步。用GitHub Page+Hexo搭建个人博客理论上很简单，实践过程各种磕磕绊绊，若不知道GitHub什么的博友先自行百度吧，在此就不啰嗦，搭建成功的关键：耐心！&lt;br&gt;废话不多说，开始正文：&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;环境搭建：&quot;&gt;&lt;a href=&quot;#环境搭建：&quot; class=&quot;headerlink&quot; title=&quot;环境搭建：&quot;&gt;&lt;/a&gt;环境搭建：&lt;/h4&gt;&lt;p&gt;首先是安装以下两个软件，普通软件的裝法：&lt;br&gt;1.&lt;strong&gt;&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;2.&lt;strong&gt;&lt;a href=&quot;https://desktop.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h6 id=&quot;Git安装成功了以后点击开始菜单会多出以下文件夹：&quot;&gt;&lt;a href=&quot;#Git安装成功了以后点击开始菜单会多出以下文件夹：&quot; class=&quot;headerlink&quot; title=&quot;Git安装成功了以后点击开始菜单会多出以下文件夹：&quot;&gt;&lt;/a&gt;Git安装成功了以后点击开始菜单会多出以下文件夹：&lt;/h6&gt;&lt;p&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/Git.jpg&quot; alt=&quot;Git&quot;&gt;&lt;/p&gt;
+&lt;h6 id=&quot;Node-js安装成功点击开始菜单会多出以下文件夹：&quot;&gt;&lt;a href=&quot;#Node-js安装成功点击开始菜单会多出以下文件夹：&quot; class=&quot;headerlink&quot; title=&quot;Node.js安装成功点击开始菜单会多出以下文件夹：&quot;&gt;&lt;/a&gt;Node.js安装成功点击开始菜单会多出以下文件夹：&lt;/h6&gt;&lt;p&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/Node.jpg&quot; alt=&quot;Node.js&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;建立博客站点&quot;&gt;&lt;a href=&quot;#建立博客站点&quot; class=&quot;headerlink&quot; title=&quot;建立博客站点&quot;&gt;&lt;/a&gt;建立博客站点&lt;/h4&gt;&lt;h5 id=&quot;注册GitHub&quot;&gt;&lt;a href=&quot;#注册GitHub&quot; class=&quot;headerlink&quot; title=&quot;注册GitHub&quot;&gt;&lt;/a&gt;注册&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/regist.jpg&quot; alt=&quot;注册&quot;&gt;&lt;br&gt;注册成功以后，登录官网验证邮箱即可&lt;/p&gt;
+&lt;h5 id=&quot;建立仓库&quot;&gt;&lt;a href=&quot;#建立仓库&quot; class=&quot;headerlink&quot; title=&quot;建立仓库&quot;&gt;&lt;/a&gt;建立仓库&lt;/h5&gt;&lt;p&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/regist1.jpg&quot; alt=&quot;建仓&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/regist2.jpg&quot; alt=&quot;建仓&quot;&gt;&lt;br&gt;注：&lt;strong&gt;仓库名称必须是username.github.io&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;使用Hexo建立博客框架&quot;&gt;&lt;a href=&quot;#使用Hexo建立博客框架&quot; class=&quot;headerlink&quot; title=&quot;使用Hexo建立博客框架&quot;&gt;&lt;/a&gt;使用Hexo建立博客框架&lt;/h4&gt;&lt;h5 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h5&gt;&lt;p&gt;打开GitBash，执行npm install -g hexo -cli,等待安装完成&lt;/p&gt;
 </content>
     
     <summary type="html">
     
       &lt;pre&gt;&lt;code&gt;——————征程路上向来无所畏惧！
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;####前言&lt;br&gt;这算是严格意义上的第一篇博客吧，若写的不够详细不够严谨，希望大家能指出不足，共同进步。用GitHub Page+Hexo搭建个人博客理论上很简单，实践过程各种磕磕绊绊，若不知道GitHub什么的博友先自行百度吧，在此就不啰嗦，搭建成功的关键：耐心！&lt;br&gt;废话不多说，开始正文：&lt;br&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;p&gt;这算是严格意义上的第一篇博客吧，若写的不够详细不够严谨，希望大家能指出不足，共同进步。用GitHub Page+Hexo搭建个人博客理论上很简单，实践过程各种磕磕绊绊，若不知道GitHub什么的博友先自行百度吧，在此就不啰嗦，搭建成功的关键：耐心！&lt;br&gt;废话不多说，开始正文：&lt;br&gt;
     
     </summary>
     
