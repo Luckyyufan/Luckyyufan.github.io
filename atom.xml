@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Luckyyufan.github.io/"/>
-  <updated>2016-06-10T06:26:26.232Z</updated>
+  <updated>2016-06-10T08:25:45.465Z</updated>
   <id>http://Luckyyufan.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>用GitHub Pages+Hexo快熟搭建个人博客（一）</title>
+    <title>用GitHub Pages+Hexo快速搭建个人博客</title>
     <link href="http://Luckyyufan.github.io/2016/04/24/blog1/"/>
     <id>http://Luckyyufan.github.io/2016/04/24/blog1/</id>
     <published>2016-04-24T11:00:10.000Z</published>
-    <updated>2016-06-10T06:26:26.232Z</updated>
+    <updated>2016-06-10T08:25:45.465Z</updated>
     
     <content type="html">&lt;pre&gt;&lt;code&gt;——————征程路上向来无所畏惧！
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;p&gt;这算是严格意义上的第一篇博客吧，若写的不够详细不够严谨，希望大家能指出不足，共同进步。用GitHub Page+Hexo搭建个人博客理论上很简单，实践过程各种磕磕绊绊，若不知道GitHub什么的博友先自行百度吧，在此就不啰嗦，搭建成功的关键：耐心！&lt;br&gt;废话不多说，开始正文：&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -29,7 +29,22 @@
 &lt;h6 id=&quot;Node-js安装成功点击开始菜单会多出以下文件夹：&quot;&gt;&lt;a href=&quot;#Node-js安装成功点击开始菜单会多出以下文件夹：&quot; class=&quot;headerlink&quot; title=&quot;Node.js安装成功点击开始菜单会多出以下文件夹：&quot;&gt;&lt;/a&gt;Node.js安装成功点击开始菜单会多出以下文件夹：&lt;/h6&gt;&lt;p&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/Node.jpg&quot; alt=&quot;Node.js&quot;&gt;&lt;/p&gt;
 &lt;h4 id=&quot;建立博客站点&quot;&gt;&lt;a href=&quot;#建立博客站点&quot; class=&quot;headerlink&quot; title=&quot;建立博客站点&quot;&gt;&lt;/a&gt;建立博客站点&lt;/h4&gt;&lt;h5 id=&quot;注册GitHub&quot;&gt;&lt;a href=&quot;#注册GitHub&quot; class=&quot;headerlink&quot; title=&quot;注册GitHub&quot;&gt;&lt;/a&gt;注册&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/regist.jpg&quot; alt=&quot;注册&quot;&gt;&lt;br&gt;注册成功以后，登录官网验证邮箱即可&lt;/p&gt;
 &lt;h5 id=&quot;建立仓库&quot;&gt;&lt;a href=&quot;#建立仓库&quot; class=&quot;headerlink&quot; title=&quot;建立仓库&quot;&gt;&lt;/a&gt;建立仓库&lt;/h5&gt;&lt;p&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/regist1.jpg&quot; alt=&quot;建仓&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/regist2.jpg&quot; alt=&quot;建仓&quot;&gt;&lt;br&gt;注：&lt;strong&gt;仓库名称必须是username.github.io&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&quot;使用Hexo建立博客框架&quot;&gt;&lt;a href=&quot;#使用Hexo建立博客框架&quot; class=&quot;headerlink&quot; title=&quot;使用Hexo建立博客框架&quot;&gt;&lt;/a&gt;使用Hexo建立博客框架&lt;/h4&gt;&lt;h5 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h5&gt;&lt;p&gt;打开GitBash，执行npm install -g hexo -cli,等待安装完成&lt;/p&gt;
+&lt;h4 id=&quot;使用Hexo建立博客框架&quot;&gt;&lt;a href=&quot;#使用Hexo建立博客框架&quot; class=&quot;headerlink&quot; title=&quot;使用Hexo建立博客框架&quot;&gt;&lt;/a&gt;使用Hexo建立博客框架&lt;/h4&gt;&lt;h5 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h5&gt;&lt;p&gt;打开GitBash，执行&lt;strong&gt;npm install -g hexo -cli&lt;/strong&gt;,等待安装完成。&lt;/p&gt;
+&lt;h5 id=&quot;使用Hexo搭建博客&quot;&gt;&lt;a href=&quot;#使用Hexo搭建博客&quot; class=&quot;headerlink&quot; title=&quot;使用Hexo搭建博客&quot;&gt;&lt;/a&gt;使用Hexo搭建博客&lt;/h5&gt;&lt;p&gt;1.在任意位置新建一个文件夹，如E:\Hexo&lt;br&gt;2.进入E:\Hexo目录，右键空白页，选择Git Bash Here。&lt;br&gt;3.弹出GitBash窗口后，执行 hexo init，直到出现INFO Start blogging with hexo!&lt;br&gt;4.执行 hexo g,执行完毕以后，在E:\Hexo中会出现很多的文件夹。&lt;br&gt;5.执行 hexo s,当出现&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/hexos.jpg&quot; alt=&quot;Hexo s&quot;&gt;在浏览器中输入localhost：4000就可以查看了。&lt;/p&gt;
+&lt;h5 id=&quot;修改config-yml&quot;&gt;&lt;a href=&quot;#修改config-yml&quot; class=&quot;headerlink&quot; title=&quot;修改config.yml&quot;&gt;&lt;/a&gt;修改config.yml&lt;/h5&gt;&lt;p&gt;1.在E:\hexo中找到config.yml文件用文本编辑器打开&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/hexoc.jpg&quot; alt=&quot;config.yml&quot;&gt;&lt;br&gt;2.填写仓库的地址，&lt;strong&gt;注：冒号后面一定要有空格！！！！&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/hexoc1.jpg&quot; alt=&quot;config1.yml&quot;&gt;修改的名称为你在GitHub上注册的仓库名一致&lt;/p&gt;
+&lt;h5 id=&quot;配置SSH&quot;&gt;&lt;a href=&quot;#配置SSH&quot; class=&quot;headerlink&quot; title=&quot;配置SSH&quot;&gt;&lt;/a&gt;配置SSH&lt;/h5&gt;&lt;p&gt;本地的git项目已经配置好了，但是应该如何与GitHub仓库建立联系呢？在GitBash中输入以下命令&lt;strong&gt;ssh -T git@github.com&lt;/strong&gt;,根据反馈进行步骤，如果出现&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/email.png&quot; alt=&quot;email&quot;&gt;则输入你的邮箱和名称&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/name.png&quot; alt=&quot;name&quot;&gt;输入名称和密码&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/password.png&quot; alt=&quot;password&quot;&gt;&lt;/p&gt;
+&lt;h5 id=&quot;将其deploy到仓库中&quot;&gt;&lt;a href=&quot;#将其deploy到仓库中&quot; class=&quot;headerlink&quot; title=&quot;将其deploy到仓库中&quot;&gt;&lt;/a&gt;将其deploy到仓库中&lt;/h5&gt;&lt;p&gt;在E:\hexo中右键进入GitBash中依次执行以下命令：&lt;br&gt;    1  hexo clean&lt;br&gt;    2  hexo generate或hexo g&lt;br&gt;    3  hexo deploy或hexo d&lt;br&gt;若出现这&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/success.jpg&quot; alt=&quot;success&quot;&gt;恭喜！个人博客已经部署到GitHub上了，你可以通过your_user_name.gtihub.io查看你的个人博客了。&lt;/p&gt;
+&lt;h4 id=&quot;主题&quot;&gt;&lt;a href=&quot;#主题&quot; class=&quot;headerlink&quot; title=&quot;主题&quot;&gt;&lt;/a&gt;主题&lt;/h4&gt;&lt;p&gt;我们开始用Hexo生成的博客是默认主题：Landscope,不过博主不喜欢这种风格，更偏向于Next主题的简单大方。&lt;br&gt;对于主题的安装配置强推&lt;a href=&quot;http://theme-next.iissnan.com/getting-started.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方文档&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;编辑博客&quot;&gt;&lt;a href=&quot;#编辑博客&quot; class=&quot;headerlink&quot; title=&quot;编辑博客&quot;&gt;&lt;/a&gt;编辑博客&lt;/h4&gt;&lt;h5 id=&quot;增加新文章&quot;&gt;&lt;a href=&quot;#增加新文章&quot; class=&quot;headerlink&quot; title=&quot;增加新文章&quot;&gt;&lt;/a&gt;增加新文章&lt;/h5&gt;&lt;p&gt;1.在GitBash中执行&lt;strong&gt;hexo new “my new post”&lt;/strong&gt;后，找到source/_posts/“my new post.md”&lt;br&gt;2.用Markdown编辑器打开，在此提醒，因为我们的博文都是用Markdown语言写的，所以，在编辑文档之前，你需要先学习Markdown语法。博主用的是本地编辑器&lt;a href=&quot;http://pad.haroopress.com/user.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Haroopad&lt;/a&gt;,博主觉得挺好用的，当然，Markdown编辑器那么多，这都无所谓。&lt;br&gt;3.执行&lt;strong&gt;hexo clean, hexo g -d&lt;/strong&gt;查看更新博客。&lt;/p&gt;
+&lt;h5 id=&quot;修改文章&quot;&gt;&lt;a href=&quot;#修改文章&quot; class=&quot;headerlink&quot; title=&quot;修改文章&quot;&gt;&lt;/a&gt;修改文章&lt;/h5&gt;&lt;p&gt;1.找到文章&lt;br&gt;2.编辑文章&lt;br&gt;3.执行&lt;strong&gt;hexo clean, hexo g -d&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;删除文章&quot;&gt;&lt;a href=&quot;#删除文章&quot; class=&quot;headerlink&quot; title=&quot;删除文章&quot;&gt;&lt;/a&gt;删除文章&lt;/h5&gt;&lt;p&gt;1.找到要删除的文章，删除。&lt;strong&gt;注：至少留一篇，否则会报错&lt;/strong&gt;&lt;br&gt;2.执行&lt;strong&gt;hexo clean， hexo g -d&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;绑定域名&quot;&gt;&lt;a href=&quot;#绑定域名&quot; class=&quot;headerlink&quot; title=&quot;绑定域名&quot;&gt;&lt;/a&gt;绑定域名&lt;/h4&gt;&lt;p&gt;博主是个懒人，不喜欢GitHub提供的二级域名，觉得太长了，如果你只是希望有一个能自己写博客的地儿，不想花钱买域名的话，就跳过这个吧。&lt;/p&gt;
+&lt;h5 id=&quot;购买域名&quot;&gt;&lt;a href=&quot;#购买域名&quot; class=&quot;headerlink&quot; title=&quot;购买域名&quot;&gt;&lt;/a&gt;购买域名&lt;/h5&gt;&lt;p&gt;大部分网友都是推荐GoDaddy购买域名，在此可以参考此&lt;a href=&quot;http://sunwhut.com/2015/10/30/buildBlog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客&lt;/a&gt;我就讲讲我的吧，因为我很早之前就在腾讯云上买了域名，也备了案，所以就不打算在买域名了，直接使用已经购买并解析好的域名。&lt;/p&gt;
+&lt;h5 id=&quot;个人域名与GitHub-Pages的空间绑定&quot;&gt;&lt;a href=&quot;#个人域名与GitHub-Pages的空间绑定&quot; class=&quot;headerlink&quot; title=&quot;个人域名与GitHub Pages的空间绑定&quot;&gt;&lt;/a&gt;个人域名与GitHub Pages的空间绑定&lt;/h5&gt;&lt;p&gt;在Hexo\source文件夹里面新建一个名为CNAME的文件&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/cname.jpg&quot; alt=&quot;CNAME&quot;&gt;用文本编辑器打开，写上你的个人域名username.com，&lt;strong&gt;注：不要写前面的www等前缀&lt;/strong&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/cname1.jpg&quot; alt=&quot;CNAME1&quot;&gt;&lt;/p&gt;
+&lt;h5 id=&quot;DNS设置&quot;&gt;&lt;a href=&quot;#DNS设置&quot; class=&quot;headerlink&quot; title=&quot;DNS设置&quot;&gt;&lt;/a&gt;DNS设置&lt;/h5&gt;&lt;p&gt;&lt;img src=&quot;http://o8jlasukt.bkt.clouddn.com/dns.jpg&quot; alt=&quot;DNS&quot;&gt;&lt;br&gt;两条A记录指向的IP地址是GitHub Pages的提供的IP：&lt;br&gt;&lt;strong&gt;192.30.252.153&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;192.30.252.154&lt;/strong&gt;&lt;br&gt;若GitHub改变了空间服务的IP地址，及时到&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub Pages&lt;/a&gt;查看&lt;br&gt;CNAME记录是你在GitHub上的仓库，所以，这是写的是your_user_name.github.io&lt;br&gt;修改完成以后执行&lt;strong&gt;hexo clean,hexo g -d&lt;/strong&gt;,等待几分钟，登录您的个人域名就能查看您的博客了。&lt;/p&gt;
+&lt;h4 id=&quot;后记&quot;&gt;&lt;a href=&quot;#后记&quot; class=&quot;headerlink&quot; title=&quot;后记&quot;&gt;&lt;/a&gt;后记&lt;/h4&gt;&lt;p&gt;博文在整个的编写中参考了@&lt;a href=&quot;http://sunwhut.com/2015/10/30/buildBlog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sunwhut&lt;/a&gt;和@&lt;a href=&quot;http://zhangdanyang.com/archives/498#prettyPhoto&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sir‘z&lt;/a&gt;的文章,首先在此表示认真的感谢。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;作者原创文章，转载请联系&lt;/strong&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -45,33 +60,6 @@
       <category term="计算机" scheme="http://Luckyyufan.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
       <category term="GitHub Page+Hexo" scheme="http://Luckyyufan.github.io/tags/GitHub-Page-Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://Luckyyufan.github.io/2016/03/31/hello-world/"/>
-    <id>http://Luckyyufan.github.io/2016/03/31/hello-world/</id>
-    <published>2016-03-31T07:49:57.663Z</published>
-    <updated>2016-03-31T07:49:57.664Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
     
   </entry>
   
