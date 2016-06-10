@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[用GitHub Pages+Hexo快速搭建个人博客]]></title>
+      <url>http://.www.Luckyyufan.com/2016/04/24/blog1/</url>
+      <content type="html"><![CDATA[<pre><code>——————征程路上向来无所畏惧！
+</code></pre><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>这算是严格意义上的第一篇博客吧，若写的不够详细不够严谨，希望大家能指出不足，共同进步。用GitHub Page+Hexo搭建个人博客理论上很简单，实践过程各种磕磕绊绊，若不知道GitHub什么的博友先自行百度吧，在此就不啰嗦，搭建成功的关键：耐心！<br>废话不多说，开始正文：<br><a id="more"></a></p>
+<h4 id="环境搭建："><a href="#环境搭建：" class="headerlink" title="环境搭建："></a>环境搭建：</h4><p>首先是安装以下两个软件，普通软件的裝法：<br>1.<strong><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></strong><br>2.<strong><a href="https://desktop.github.com/" target="_blank" rel="external">Git</a></strong></p>
+<h6 id="Git安装成功了以后点击开始菜单会多出以下文件夹："><a href="#Git安装成功了以后点击开始菜单会多出以下文件夹：" class="headerlink" title="Git安装成功了以后点击开始菜单会多出以下文件夹："></a>Git安装成功了以后点击开始菜单会多出以下文件夹：</h6><p><img src="http://o8jlasukt.bkt.clouddn.com/Git.jpg" alt="Git"></p>
+<h6 id="Node-js安装成功点击开始菜单会多出以下文件夹："><a href="#Node-js安装成功点击开始菜单会多出以下文件夹：" class="headerlink" title="Node.js安装成功点击开始菜单会多出以下文件夹："></a>Node.js安装成功点击开始菜单会多出以下文件夹：</h6><p><img src="http://o8jlasukt.bkt.clouddn.com/Node.jpg" alt="Node.js"></p>
+<h4 id="建立博客站点"><a href="#建立博客站点" class="headerlink" title="建立博客站点"></a>建立博客站点</h4><h5 id="注册GitHub"><a href="#注册GitHub" class="headerlink" title="注册GitHub"></a>注册<a href="https://github.com/" target="_blank" rel="external">GitHub</a></h5><p><img src="http://o8jlasukt.bkt.clouddn.com/regist.jpg" alt="注册"><br>注册成功以后，登录官网验证邮箱即可</p>
+<h5 id="建立仓库"><a href="#建立仓库" class="headerlink" title="建立仓库"></a>建立仓库</h5><p><img src="http://o8jlasukt.bkt.clouddn.com/regist1.jpg" alt="建仓"><br><img src="http://o8jlasukt.bkt.clouddn.com/regist2.jpg" alt="建仓"><br>注：<strong>仓库名称必须是username.github.io</strong></p>
+<h4 id="使用Hexo建立博客框架"><a href="#使用Hexo建立博客框架" class="headerlink" title="使用Hexo建立博客框架"></a>使用Hexo建立博客框架</h4><h5 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h5><p>打开GitBash，执行<strong>npm install -g hexo -cli</strong>,等待安装完成。</p>
+<h5 id="使用Hexo搭建博客"><a href="#使用Hexo搭建博客" class="headerlink" title="使用Hexo搭建博客"></a>使用Hexo搭建博客</h5><p>1.在任意位置新建一个文件夹，如E:\Hexo<br>2.进入E:\Hexo目录，右键空白页，选择Git Bash Here。<br>3.弹出GitBash窗口后，执行 hexo init，直到出现INFO Start blogging with hexo!<br>4.执行 hexo g,执行完毕以后，在E:\Hexo中会出现很多的文件夹。<br>5.执行 hexo s,当出现<img src="http://o8jlasukt.bkt.clouddn.com/hexos.jpg" alt="Hexo s">在浏览器中输入localhost：4000就可以查看了。</p>
+<h5 id="修改config-yml"><a href="#修改config-yml" class="headerlink" title="修改config.yml"></a>修改config.yml</h5><p>1.在E:\hexo中找到config.yml文件用文本编辑器打开<img src="http://o8jlasukt.bkt.clouddn.com/hexoc.jpg" alt="config.yml"><br>2.填写仓库的地址，<strong>注：冒号后面一定要有空格！！！！</strong><br><img src="http://o8jlasukt.bkt.clouddn.com/hexoc1.jpg" alt="config1.yml">修改的名称为你在GitHub上注册的仓库名一致</p>
+<h5 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h5><p>本地的git项目已经配置好了，但是应该如何与GitHub仓库建立联系呢？在GitBash中输入以下命令<strong>ssh -T git@github.com</strong>,根据反馈进行步骤，如果出现<img src="http://o8jlasukt.bkt.clouddn.com/email.png" alt="email">则输入你的邮箱和名称<img src="http://o8jlasukt.bkt.clouddn.com/name.png" alt="name">输入名称和密码<img src="http://o8jlasukt.bkt.clouddn.com/password.png" alt="password"></p>
+<h5 id="将其deploy到仓库中"><a href="#将其deploy到仓库中" class="headerlink" title="将其deploy到仓库中"></a>将其deploy到仓库中</h5><p>在E:\hexo中右键进入GitBash中依次执行以下命令：<br>    1  hexo clean<br>    2  hexo generate或hexo g<br>    3  hexo deploy或hexo d<br>若出现这<img src="http://o8jlasukt.bkt.clouddn.com/success.jpg" alt="success">恭喜！个人博客已经部署到GitHub上了，你可以通过your_user_name.gtihub.io查看你的个人博客了。</p>
+<h4 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h4><p>我们开始用Hexo生成的博客是默认主题：Landscope,不过博主不喜欢这种风格，更偏向于Next主题的简单大方。<br>对于主题的安装配置强推<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">官方文档</a></p>
+<h4 id="编辑博客"><a href="#编辑博客" class="headerlink" title="编辑博客"></a>编辑博客</h4><h5 id="增加新文章"><a href="#增加新文章" class="headerlink" title="增加新文章"></a>增加新文章</h5><p>1.在GitBash中执行<strong>hexo new “my new post”</strong>后，找到source/_posts/“my new post.md”<br>2.用Markdown编辑器打开，在此提醒，因为我们的博文都是用Markdown语言写的，所以，在编辑文档之前，你需要先学习Markdown语法。博主用的是本地编辑器<a href="http://pad.haroopress.com/user.html" target="_blank" rel="external">Haroopad</a>,博主觉得挺好用的，当然，Markdown编辑器那么多，这都无所谓。<br>3.执行<strong>hexo clean, hexo g -d</strong>查看更新博客。</p>
+<h5 id="修改文章"><a href="#修改文章" class="headerlink" title="修改文章"></a>修改文章</h5><p>1.找到文章<br>2.编辑文章<br>3.执行<strong>hexo clean, hexo g -d</strong></p>
+<h5 id="删除文章"><a href="#删除文章" class="headerlink" title="删除文章"></a>删除文章</h5><p>1.找到要删除的文章，删除。<strong>注：至少留一篇，否则会报错</strong><br>2.执行<strong>hexo clean， hexo g -d</strong></p>
+<h4 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h4><p>博主是个懒人，不喜欢GitHub提供的二级域名，觉得太长了，如果你只是希望有一个能自己写博客的地儿，不想花钱买域名的话，就跳过这个吧。</p>
+<h5 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h5><p>大部分网友都是推荐GoDaddy购买域名，在此可以参考此<a href="http://sunwhut.com/2015/10/30/buildBlog/" target="_blank" rel="external">博客</a>我就讲讲我的吧，因为我很早之前就在腾讯云上买了域名，也备了案，所以就不打算在买域名了，直接使用已经购买并解析好的域名。</p>
+<h5 id="个人域名与GitHub-Pages的空间绑定"><a href="#个人域名与GitHub-Pages的空间绑定" class="headerlink" title="个人域名与GitHub Pages的空间绑定"></a>个人域名与GitHub Pages的空间绑定</h5><p>在Hexo\source文件夹里面新建一个名为CNAME的文件<img src="http://o8jlasukt.bkt.clouddn.com/cname.jpg" alt="CNAME">用文本编辑器打开，写上你的个人域名username.com，<strong>注：不要写前面的www等前缀</strong><img src="http://o8jlasukt.bkt.clouddn.com/cname1.jpg" alt="CNAME1"></p>
+<h5 id="DNS设置"><a href="#DNS设置" class="headerlink" title="DNS设置"></a>DNS设置</h5><p><img src="http://o8jlasukt.bkt.clouddn.com/dns.jpg" alt="DNS"><br>两条A记录指向的IP地址是GitHub Pages的提供的IP：<br><strong>192.30.252.153</strong><br><strong>192.30.252.154</strong><br>若GitHub改变了空间服务的IP地址，及时到<a href="https://help.github.com/articles/setting-up-an-apex-domain/" target="_blank" rel="external">GitHub Pages</a>查看<br>CNAME记录是你在GitHub上的仓库，所以，这是写的是your_user_name.github.io<br>修改完成以后执行<strong>hexo clean,hexo g -d</strong>,等待几分钟，登录您的个人域名就能查看您的博客了。</p>
+<h4 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h4><p>博文在整个的编写中参考了@<a href="http://sunwhut.com/2015/10/30/buildBlog/" target="_blank" rel="external">sunwhut</a>和@<a href="http://zhangdanyang.com/archives/498#prettyPhoto" target="_blank" rel="external">Sir‘z</a>的文章,首先在此表示认真的感谢。</p>
+<hr>
+<p><strong>作者原创文章，转载请联系</strong></p>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
